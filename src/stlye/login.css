@@ -1,0 +1,119 @@
+/* Center the form on screen */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+}
+
+
+.login-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.login-form input,
+.login-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+
+.login-form input:focus,
+.login-form select:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 5px rgba(42, 82, 152, 0.4);
+}
+
+/* Button */
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2a5298;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.login-form button:hover {
+    background: #1e3c72;
+}
+
+/* Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    color: white;
+    padding: 12px 24px;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Links container */
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+/* User info */
+.user-info {
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+/* Links */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    color: #60a5fa;
+}
+
+/* Logout button */
+.logout-btn {
+    background: #ef4444;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.logout-btn:hover {
+    background: #dc2626;
+}
