@@ -1,4 +1,8 @@
-/* Center the form on screen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .login-container {
     height: 100vh;
     display: flex;
@@ -35,6 +39,7 @@
     font-size: 14px;
     outline: none;
     transition: 0.2s;
+    width: 100%;
 }
 
 
@@ -173,4 +178,72 @@
 
 .profile button:hover {
     background: #0958d9;
+}
+
+
+
+@media (max-width: 480px) {
+    .user-info {
+        font-size: 12px;
+    }
+
+    .login-form {
+        width: 90%;
+        padding: 20px;
+    }
+
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .navbar-links {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+
+    .profile,
+    .settings {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+
+    .logo {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        width: 80%;
+    }
+
+    .profile,
+    .settings {
+        max-width: 90%;
+    }
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar-links {
+        gap: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .login-form {
+        width: 400px;
+    }
+
+    .profile,
+    .settings {
+        max-width: 400px;
+    }
 }

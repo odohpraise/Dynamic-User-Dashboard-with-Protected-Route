@@ -18,12 +18,13 @@ export const Navbar = () => {
             </div>
 
             <ul className="navbar-links">
-                <li className="user-info">
-                    {user?.username} ({user?.role})
-                </li>
 
                 <li>
                     <Link to="/profile">Profile</Link>
+                </li>
+
+                <li className="user-info">
+                    {user?.username} ({user?.role})
                 </li>
 
                 {user?.role === 'admin' && (
