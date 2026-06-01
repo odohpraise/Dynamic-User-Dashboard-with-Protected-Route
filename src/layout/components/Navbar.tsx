@@ -14,7 +14,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <h2 className="logo">MyApp</h2>
+                <h2 className="logo">Dashboard</h2>
             </div>
 
             <ul className="navbar-links">
