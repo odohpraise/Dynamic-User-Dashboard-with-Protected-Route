@@ -4,11 +4,11 @@
 }
 
 .login-container {
-    height: 100vh;
+    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
     font-family: Arial, sans-serif;
 }
 
@@ -196,13 +196,13 @@
     .navbar {
         flex-direction: row;
         justify-content: space-between;
-        gap: 10px;
+        gap: 1px;
         text-align: center;
     }
 
     .navbar-links {
         flex-direction: row;
-        gap: 10px;
+        gap: 4px;
     }
 
 
